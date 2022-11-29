@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    padding: 0px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+body {
+    margin: 0px auto;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+}
+h1,h2,h3,h4, h5,h6{
+    margin: 0px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+button:focus, input:focus, select:focus, textarea:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.navbar-toggler:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+img{
+    width:100%;
+    display:block;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: transparent;
+}
+a, button{
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+._toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+._toggler.collapsed .navbar-toggler-icon {
+    background-image: url("../img/header-r8-menu-ic.svg") !important;
+    transition: 0.1s all ease-in-out;
+    max-width: 18px;
+}
+._toggler .navbar-toggler-icon {
+    background-image: url("../img/header-r8-menu-cross.svg") !important;
+    transition: 0.1s all ease-in-out;
+    max-width: 18px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+
+.page1_calendly_wrapper, .page2_calendly_wrapper {
+    padding: 50px 0;
+}
+
+.page1_calendly_wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.page1_calendly_card {
+    background: rgb(89, 155, 157);
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+.page1_calendly_card_txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page1_calendly_card_dropdown {
+    color: #000;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.page2_calendly_main {
+    background: rgb(89, 155, 157);
+    color: #fff;
+    padding: 30px 20px 0;
+}
+
+.page2_calendly_main.page3 {
+    padding: 30px 20px;
+}
+
+.page2_calendly_main.page4 {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.page2_calendly_main.page4 .page4_arrow_btn {
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.page1_calendly_user table {
+    width: 100%;
+}
+
+thead, tbody, tfoot, tr, td, th {
+    border-color: red;
+}
+
+.page1_calendly_calender h6 {
+    margin-bottom: 10px;
+}
+
+.page1_calendly_card p {
+    margin-bottom: 20px;
+}
+.page1_calendly_card a {
+    color: #000000;
+    display: inline-block;
+    background: #fff;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.page1_calendly_card_dropdown_list_sp {
+    padding: 0.25rem 1rem;
+}
+
+.page1_calendly_card_bottm_btn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page1_calendly_calender_time_wrap h6 {
+    margin-bottom: 14px;
+}
+
+.page1_calendly_calender_time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page1_calendly_confirm_time li {
+    margin-bottom: 10px;
+}
+
+.page1_calendly_confirm_time_btn {
+    background: transparent;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+}
+
+.page1_calendly_calender {
+    width: 500px;
+    max-width: 400px;
+}
+
+.page1_calendly_set_time {
+    flex: 1 1 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;
+}
+
+button.page3_arrow_btn1 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background: transparent;
+    margin-bottom: 20px;
+}
+
